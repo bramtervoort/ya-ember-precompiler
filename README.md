@@ -18,6 +18,6 @@ Why another ember-precompiler
 -----------------------------
 Its simple I could easyer make a new compile script myself than get the other compilers to work on windows. 
 
-The other compilers either use jQuery (with wont build for me on windows), or slack behind the current ember / handlebars version so much I kept running in to trouble every time I wanted to update to the next ember release. I build this script in 2 day's (3 hours to figure out howto compile ember, 1 for writing the script and the rest for figuring out howto bundle and publish stuf). 
+The other compilers either use jQuery (with won't build for me on windows), or slack behind the current ember / handlebars version so much I kept running in to trouble every time I wanted to update to the next ember release. I build this script in 2 day's (3 hours to figure out howto compile ember, 1 hour for writing the script and the other time for figuring out how to bundle and publish stuf to npm). 
 
 I just took the 'ember-handlebars-compiler' module, patched it so it would work standalone in nodes and there I had my own compile script. Easy to keep up to date and easy to install. O and easy to use in symfony 2.
