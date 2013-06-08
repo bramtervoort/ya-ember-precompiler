@@ -6,7 +6,7 @@ Instalation
 -----------
     npm install ya-ember-precompiler
 	
-Don't forget to set your path var correct *%PATH%;.\node_modules\.bin* (yes this is for windows, you linux people should know what to put in your path.)
+Don't forget to set your path var correct - %PATH%;.\node_modules\.bin - (yes this is for windows, you linux people should know what to put in your path.)
 
 Usage
 -----
