@@ -1,6 +1,6 @@
 {
-  "name": "ember-precompile",
-  "version": "0.1.0",
+  "name": "ya-ember-precompile",
+  "version": "v0.1.0-beta",
   "description": "Precompile ember handlebars template files without the usage of jquery",
   "main": "ember-precompile.js",
   "directory": "libs",
