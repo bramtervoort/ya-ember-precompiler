@@ -10,7 +10,7 @@
   "scripts": {
     "test": "test.bat"
   },
-  "repository": "",
+  "repository": "https://github.com/bramtervoort/ya-ember-precompiler",
   "keywords": [
     "ember.js",
     "handlebars.js",
