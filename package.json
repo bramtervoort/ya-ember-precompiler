@@ -1,10 +1,10 @@
 {
   "name": "ember-precompile",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "precompile ember template handlebars files without jquery or headlessbrowsers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test.bat"
   },
   "repository": "",
   "keywords": [
@@ -15,6 +15,7 @@
   "author": "Bram Tervoort",
   "license": "BSD",
   "dependencies" :{
-	"handlebars": "1.0.11"
+	"handlebars": "1.0.11",
+	"optimist": "*"
   }
 }
