@@ -1,22 +1,23 @@
 {
   "name": "ember-precompile",
   "version": "0.1.0",
-  "description": "precompile ember template handlebars files without jquery or headlessbrowsers",
-  "main": "index.js",
+  "description": "Precompile ember handlebars template files without the usage of jquery",
+  "main": "ember-precompile.js",
+  "directory": "libs",
   "bin": {
-	"ember-precompile": "./index.js"
+	"ember-precompile": "./ember-precompile.js"
   },
   "scripts": {
     "test": "test.bat"
   },
   "repository": "",
   "keywords": [
-    "emberjs",
-    "handlebars",
+    "ember.js",
+    "handlebars.js",
     "precompiler"
   ],
   "author": "Bram Tervoort",
-  "license": "BSD",
+  "license": "MIT",
   "dependencies" :{
 	"handlebars": "1.0.11",
 	"optimist": "*"

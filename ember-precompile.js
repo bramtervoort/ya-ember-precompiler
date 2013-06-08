@@ -1,6 +1,14 @@
 #!/usr/bin/env node
 
-var optimist = require('optimist'),
+var optimist = require('optimist')
+		.usage('Precompile handlebar templates.\nUsage: ember-precompile template... -f template.js', {
+			'f': {
+				'type': 'string',
+				'description': 'Output File',
+				'alias': 'output',
+				'demand': true
+			}}),
+		
 	argv = optimist.argv,
 	handlebars = require('./libs/ember-handlebars-compiler'),
 	util = require('util'),
