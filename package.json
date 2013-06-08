@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "precompile ember template handlebars files without jquery or headlessbrowsers",
   "main": "index.js",
+  "bin": {
+	"ember-precompile": "./index.js"
+  },
   "scripts": {
     "test": "test.bat"
   },

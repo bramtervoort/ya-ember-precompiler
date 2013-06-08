@@ -1,8 +1,11 @@
+#!/usr/bin/env node
+
 var optimist = require('optimist'),
 	argv = optimist.argv,
 	handlebars = require('./libs/ember-handlebars-compiler'),
 	util = require('util'),
 	fs = require('fs'),
+	path = require('path'),
 	output = "",
 	files = argv._.length,
 	
@@ -12,7 +15,7 @@ var optimist = require('optimist'),
 	
 argv._.forEach(function(filename) {
 	fs.readFile(filename, 'utf8', function (err, data) {
-		var templateName = filename.replace(/\.(handlebars|hbs)$/, '').replace(/\./g, '/'),
+		var templateName = path.basename(filename).replace(/\.(handlebars|hbs)$/, '').replace(/\./g, '/'),
 			str = 'Ember.TEMPLATES["%s"] = Ember.Handlebars.template(%s);\n';
 		
 		if(err) { throw err; }
