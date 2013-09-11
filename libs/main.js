@@ -2,10 +2,6 @@
 @module ember
 @submodule ember-handlebars-compiler
 */
-var Ember = {};
-Ember.assert = function(desc, test) {
-  if (!test) throw new Error("failed: "+desc);
-};
 
 // Eliminate dependency on any Ember to simplify precompilation workflow
 var objectCreate = Object.create || function(parent) {
@@ -266,7 +262,4 @@ if (Handlebars.compile) {
     return template;
   };
 }
-
-module.exports = Ember.Handlebars;
-
 
